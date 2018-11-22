@@ -28,7 +28,7 @@ var hi = function (type) {
             console.log('Hi, ' + name);
         };
     }
-}
+};
 
 var returnFunction = hi('boss');
 returnFunction('Alde');

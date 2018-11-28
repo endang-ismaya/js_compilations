@@ -1,3 +1,4 @@
+// niomic
 function panggilObjects() {
     var mobil = {
         type: 'Sedan',
@@ -13,4 +14,30 @@ function panggilObjects() {
     console.log(mobil.tahun[1]);
 }
 
-panggilObjects();
+// panggilObjects();
+
+
+// andaglos
+var supermanObj = {
+    id: "1a2b3c",
+    name: "Superman",
+    age: 200,
+    favorites: [
+        "coding",
+        "reading",
+        {
+            sports: ["parkour", "hill climbing"]
+        }
+    ],
+    address: {},
+    speak: function () {
+        console.log('i am superman!');
+    }
+};
+
+console.log(supermanObj.name); // "Superman"
+console.log(supermanObj.age); // 200
+console.log(supermanObj.favorites[0]); // "coding"
+console.log(supermanObj.favorites[2].sports); // ["parkour", "hill climbing"]
+console.log(supermanObj.favorites[2].sports[0]); // "parkour"
+supermanObj.speak(); // "i am superman!"

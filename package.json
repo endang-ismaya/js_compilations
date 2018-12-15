@@ -9,7 +9,5 @@
   "keywords": [],
   "author": "Endang Ismaya",
   "license": "ISC",
-  "devDependencies": {
-    "jshint": "^2.9.6"
-  }
+  "devDependencies": {}
 }

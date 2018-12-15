@@ -1,3 +1,4 @@
+// Niomic
 function panggilForEach() {
     var data = ['a', 'b', 'c', 'e', 'f', 'g', 'h'];
 
